@@ -1,0 +1,22 @@
+.nameNSocialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem; /* 133.333% */
+  letter-spacing: -0.333px;
+}
+
+.socials {
+  width:153.94px ;
+  height: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+}

@@ -1,0 +1,16 @@
+.headerMain h3 {
+  width: 21.4375rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2.5rem; /* 100% */
+  letter-spacing: -0.071rem;
+}
+
+.headerMain p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem; /* 162.5% */
+  width: 21.4375rem;
+}
