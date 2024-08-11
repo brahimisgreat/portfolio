@@ -1,3 +1,10 @@
+.headerMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
 .headerMain h3 {
   width: 21.4375rem;
   text-align: center;
@@ -7,10 +14,41 @@
   letter-spacing: -0.071rem;
 }
 
+.headerMain h3 span {
+  border-bottom: var(--green) 4px solid;
+}
+
 .headerMain p {
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.625rem; /* 162.5% */
   width: 21.4375rem;
+  margin-top: 1rem;
+}
+
+.headerMain .contactMe button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 162.5% */
+  letter-spacing: 2.286px;
+  color: white;
+}
+
+.headerMain .contactMe .line{
+  width : 100%;
+  border:  0.125rem solid #4EE1AB;
+
+}
+
+.contactMe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  margin-top: 1.0rem;
 }

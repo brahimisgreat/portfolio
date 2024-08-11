@@ -1,4 +1,13 @@
 .profilePic img {
     width: 174.207px;
-    height: 242px;
+    height: 15.125rem;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.0rem;
+    margin-top: 1.5rem;
 }

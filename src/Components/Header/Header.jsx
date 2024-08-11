@@ -5,14 +5,12 @@ import "./Header.css";
 
 export const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <NameNSocialLinks />
       <div className="profilePic">
         <img src={pic} alt="profile picture" />
       </div>
-      <div className="main">
-        <Main />
-      </div>
-    </div>
+      <Main />
+    </header>
   );
 };
