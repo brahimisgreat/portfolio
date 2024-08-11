@@ -21,32 +21,32 @@ import artGallerySmall from "./assets/images/thumbnail-project-6-small.webp";
   {
     name: "E-LEARNING LANDING PAGE",
     skills: ["HTML", "CSS"],
-    image: { ElearningPage },
-    imageSmall: { ElearningPageSmall },
+    image:  ElearningPage ,
+    imageSmall:  ElearningPageSmall ,
   },
   {
     name: "TODO WEB APP",
     skills: ["HTML", "CSS", "javascript"],
-    image: { todoApp },
-    imageSmall: { todoAppSmall },
+    image:  todoApp ,
+    imageSmall:  todoAppSmall ,
   },
   {
     name: "ENTERTAINMENT WEB APP",
     skills: ["HTML", "CSS", "javascript"],
-    image: { EntertainmentApp },
-    imageSmall: { EntertainmentAppSmall },
+    image: EntertainmentApp,
+    imageSmall: EntertainmentAppSmall,
   },
   {
     name: "MEMORY GAME",
     skills: ["HTML", "CSS", "javascript"],
-    image: { memortGame },
-    imageSmall: { memortGameSmall },
+    image:  memortGame ,
+    imageSmall:  memortGameSmall ,
   },
   {
     name: "ART GALLERY SHOWCASE",
     skills: ["HTML", "CSS", "javascript"],
-    image: { artGallery },
-    imageSmall: { artGallerySmall },
+    image:  artGallery ,
+    imageSmall:  artGallerySmall ,
   },
  
 ];

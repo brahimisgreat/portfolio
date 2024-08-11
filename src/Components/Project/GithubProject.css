@@ -1,0 +1,48 @@
+.githubProject {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4375rem;
+}
+
+.githubProject img {
+  width: 345px;
+  height: 253px;
+  flex-shrink: 0;
+}
+
+.githubProject h5 {
+  font-feature-settings: "liga" off, "clig" off;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem; /* 133.333% */
+}
+
+.program-skills {
+  color: var(--grey);
+  font-feature-settings: "liga" off, "clig" off;
+
+  display: flex;
+  gap: 1.125rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+.codeButtons button {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.625rem; /* 162.5% */
+  letter-spacing: 0.142875rem;
+  background: transparent;
+  border: none;
+  border-bottom: solid 2px var(--green);
+}
+
+.codeButtons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.2rem;
+  height: 55px;
+}

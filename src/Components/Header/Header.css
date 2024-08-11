@@ -1,6 +1,6 @@
 .profilePic img {
     width: 174.207px;
-    height: 15.125rem;
+    height: 19.125rem;
 }
 
 header{
@@ -10,4 +10,18 @@ header{
     justify-content: center;
     gap: 1.0rem;
     margin-top: 1.5rem;
+}
+
+.backImg{
+    position: absolute;
+    bottom: 300px;
+    right: 200px;
+    z-index: -1;
+}
+
+.circle{
+    position: absolute;
+    bottom: 200px;
+    z-index: -1;
+    left: 310px;
 }
