@@ -21,3 +21,9 @@ body{
     color: white;
     background-color:#151515 ;
 }
+
+button:hover{
+    cursor: pointer ;
+    color: var(--green) !important;
+
+}

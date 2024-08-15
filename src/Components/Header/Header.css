@@ -3,6 +3,10 @@
     height: 19.125rem;
 }
 
+.profilePic .pic2{
+    display: none;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -24,4 +28,16 @@ header{
     bottom: 200px;
     z-index: -1;
     left: 310px;
+}
+
+
+
+/* Media quieres */
+@media (min-width: 768px){
+  
+
+.header{
+    width: 100%;
+    border: solid 1px red;
+}
 }

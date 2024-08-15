@@ -30,6 +30,33 @@
   border-bottom: 1px solid var(--white);
 }
 
+.contact form .input2:focus, .contact form .input1:focus, .contact form textarea:focus{
+    border-bottom: 1px solid var(--green);
+}
+
+.contact form .input2Error{
+  border-bottom: 1px solid #ff6f5b;
+}
+
+.contact form .input2Error:focus{
+  border-bottom: 1px solid #ff6f5b;;
+}
+
+.contact form  p{
+  color: #ff6f5b;
+  position: relative;
+  bottom: 30px;
+  left: 29%;
+  line-height: 16px; /* 133.333% */
+letter-spacing: -0.167px;
+font-size: 12px;
+
+}
+
+
+
+
+
 input, textarea {
   height: 43px;
   color: var(--white);
@@ -101,3 +128,4 @@ letter-spacing: -0.222px;
   bottom: 360px;
   right: 300px;
 }
+
