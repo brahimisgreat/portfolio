@@ -39,17 +39,54 @@
   color: white;
 }
 
-
-.headerMain .contactMe .line{
-  width : 100%;
-  border:  0.125rem solid #4EE1AB;
-
+.headerMain .contactMe .line {
+  width: 100%;
+  border: 0.125rem solid #4ee1ab;
 }
 
-.contactMe{
+.contactMe {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.625rem;
-  margin-top: 1.0rem;
+  margin-top: 1rem;
+}
+
+/* Media quieres */
+@media (min-width: 768px) {
+  .headerMain {
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 30px;
+  }
+
+  .headerMain .h3-1 {
+    display: none;
+  }
+
+  .headerMain .h3-2 span{
+    letter-spacing: -2.045px;
+  }
+
+  .headerMain .h3-2 {
+    width: 600px;
+    flex-shrink: 0;
+    color: var(--White, #fff);
+    font-family: "Space Grotesk";
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 100% */
+    letter-spacing: -2.045px;
+    text-align: start;
+  }
+
+  .headerMain p {
+    width: 445px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    text-align: start;
+    color: var(--grey);
+  }
 }

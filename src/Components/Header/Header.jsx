@@ -12,7 +12,7 @@ export const Header = () => {
       <header className="header">
         <NameNSocialLinks />
         <div className="profilePic">
-          <img src={pic} alt="profile picture" />
+          <img src={pic} alt="profile picture" className="pic1" />
           <img src={pic2} alt="profile picture" className="pic2" />
         </div>
         <Main />
