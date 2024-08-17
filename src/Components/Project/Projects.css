@@ -31,3 +31,41 @@
   flex-direction: column;
   gap: 2.5rem;
 }
+
+
+/* Media quieres */
+@media (min-width: 768px) {
+  
+  .projects{
+    width: 90%;
+    margin-top: 50px;
+  }
+  
+  .projectsHeader {
+  justify-content: space-between;
+  align-items: center;
+
+  }
+
+  .projectsHeader h4 {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 100% */
+    letter-spacing: -2.045px;
+  }
+
+  .projectsHeader button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 39px; /* 162.5% */
+    letter-spacing: 3.644875px;
+    height: 40px;
+  }
+
+  .projects-boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+}
