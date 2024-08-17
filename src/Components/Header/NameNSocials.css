@@ -27,8 +27,8 @@
 
 @media (min-width: 768px){
   .nameNSocialLinks{
-    border: solid 1px red;
     flex-direction: row;
     width: 100%;
+    justify-content: space-between;
   }
 }
