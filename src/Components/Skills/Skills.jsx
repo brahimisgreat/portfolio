@@ -1,4 +1,5 @@
 import './Skills.css'
+import skillsBg from '../../assets/images/pattern-rings.svg'
 
 export const Skills = () => {
   return (
@@ -27,6 +28,7 @@ export const Skills = () => {
             <h4>Sass</h4>
             <p>3 Years Experience</p>
         </div>
+        <img src={skillsBg} alt='background decoration image' className='skills-backImg' />
     </div>
   )
 }

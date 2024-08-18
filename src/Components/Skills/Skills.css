@@ -38,6 +38,7 @@
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border-bottom: none;
   }
 
   .skills .nameOfSkill{
@@ -58,5 +59,11 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
+  }
+
+  .skills-backImg {
+    position: absolute;
+    top: 120%;
+    right: -35%;
   }
 }
