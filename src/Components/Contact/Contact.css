@@ -113,7 +113,9 @@ textarea {
 }
 
 .nsl {
-  margin-top: 40px;
+  margin-top: 60px;
+  position: relative;
+  bottom: 30px;
 }
 
 .contact-container {
