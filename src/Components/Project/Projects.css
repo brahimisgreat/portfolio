@@ -31,3 +31,23 @@
   flex-direction: column;
   gap: 2.5rem;
 }
+
+
+/* media quieries */
+
+@media screen and (min-width: 768px) {
+  .projects{
+    width: 90%;
+  }
+
+  .projectsHeader{
+    justify-content: space-between;
+  }
+  
+  .projects-boxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+}
