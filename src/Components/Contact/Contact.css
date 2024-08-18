@@ -123,11 +123,12 @@ textarea {
   height: 100%;
 }
 
-.contact-backImg {
+.contact-backImg{
   position: absolute;
-  bottom: 360px;
-  right: 300px;
+  top: 589%;
+  left: -80%;
 }
+
 
 /* media quieries tablet */
 @media screen and (min-width: 768px) {
@@ -170,9 +171,5 @@ textarea {
     margin-bottom: 5%;
   }
   
-  .contact-backImg {
-    bottom: -187%;
-    right: 75%;
-    
-  }
+  
 }

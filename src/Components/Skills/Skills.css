@@ -31,6 +31,13 @@
   line-height: 1.625rem; /* 162.5% */
 }
 
+.skillsBg{
+  position: absolute;
+  top: 163%;
+  right: -75%;
+  z-index: -1;
+}
+
 /* Media Queries tablets */
 
 @media (min-width: 768px) {
