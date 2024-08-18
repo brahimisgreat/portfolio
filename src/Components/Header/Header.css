@@ -1,43 +1,61 @@
-.profilePic img {
-    width: 174.207px;
-    height: 19.125rem;
+.profilePic .pic1 {
+  width: 174.207px;
+  height: 19.125rem;
 }
 
-.profilePic .pic2{
-    display: none;
+.profilePic .pic2 {
+  display: none;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.0rem;
-    margin-top: 1.5rem;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
-.backImg{
-    position: absolute;
-    bottom: 300px;
-    right: 200px;
-    z-index: -1;
+.backImg {
+  position: absolute;
+  bottom: 300px;
+  right: 200px;
+  z-index: -1;
 }
 
-.circle{
-    position: absolute;
-    bottom: 200px;
-    z-index: -1;
-    left: 310px;
+.circleB {
+  position: absolute;
+  bottom: 200px;
+  z-index: -1;
+  left: 390px;
 }
-
-
 
 /* Media quieres */
-@media (min-width: 768px){
-  
-
-.header{
+@media (min-width: 768px) {
+  .header {
     width: 90%;
-    border: solid 1px red;
-}
+
+  }
+
+  .profilePic .pic1 {
+    display: none;
+  }
+  .profilePic .pic2 {
+    display: block;
+    position: relative;
+    left: 77%;
+    bottom: 50px;
+    width: 349.854px;
+    height: 600px;
+    z-index: -1;
+  }
+
+    .backImg {
+        bottom:85%;
+        right: 620px;
+    }
+
+    .circleB {
+        bottom: 60%;
+        left: 93%;
+    }
 }

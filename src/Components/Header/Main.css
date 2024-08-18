@@ -5,7 +5,11 @@
   gap: 1rem;
 }
 
-.headerMain h3 {
+.headerMain .h3-2{
+  display: none;
+}
+
+.headerMain .h3-1 {
   width: 21.4375rem;
   text-align: center;
   font-size: 2.5rem;
@@ -39,17 +43,55 @@
   color: white;
 }
 
-
-.headerMain .contactMe .line{
-  width : 100%;
-  border:  0.125rem solid #4EE1AB;
-
+.headerMain .contactMe .line {
+  width: 100%;
+  border: 0.125rem solid #4ee1ab;
 }
 
-.contactMe{
+.contactMe {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.625rem;
-  margin-top: 1.0rem;
+  margin-top: 1rem;
+}
+
+/* Media queries  tablets */
+
+@media (min-width: 768px) {
+  .headerMain {
+    position: relative;
+    bottom: 465px;
+    right: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 445px;
+height: 449px;
+  }
+
+  .headerMain .h3-1 {
+    display: none;
+  }
+
+  .headerMain .h3-2 {
+    width: 445px;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 100% */
+    letter-spacing: -2.045px;
+    text-align: start;
+    display: block;
+  }
+
+  .headerMain p {
+    width: 445px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: start;
+    margin-top: 50px;
+  }
 }

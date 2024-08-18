@@ -12,13 +12,13 @@ export const Header = () => {
       <header className="header">
         <NameNSocialLinks />
         <div className="profilePic">
-          <img src={pic} alt="profile picture" />
+          <img src={pic} alt="profile picture" className="pic1" />
           <img src={pic2} alt="profile picture" className="pic2" />
         </div>
         <Main />
-      </header>
       <img src={backImg} alt="background decoration image" className="backImg" />
-      <img src={circle} alt="background decoration image" className="circle" />
+      <img src={circle} alt="background decoration image" className="circleB" />
+      </header>
     </>
   );
 };
