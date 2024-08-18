@@ -42,6 +42,14 @@
 
   .projectsHeader{
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .projectsHeader h4 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px; /* 100% */
+    letter-spacing: -2.045px;
   }
   
   .projects-boxes {
