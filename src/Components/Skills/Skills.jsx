@@ -28,7 +28,6 @@ export const Skills = () => {
             <h4>Sass</h4>
             <p>3 Years Experience</p>
         </div>
-        <img src={skillsBg} alt="skills" className="skillsBg" />
     </div>
   )
 }

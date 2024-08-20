@@ -63,14 +63,10 @@ export const Contact = () => {
           </form>
         </div>
         <div className="nsl">
-          <NameNSocialLinks />
+          <NameNSocialLinks className />
         </div>
         <div>
-          <img
-            src={bgi}
-            alt="background decoration image"
-            className="contact-backImg"
-          />
+         
         </div>
       </div>
     </>

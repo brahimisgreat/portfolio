@@ -12,16 +12,6 @@ export const Header = () => {
         <NameNSocialLinks />
         <ProfilePic />
         <Main />
-        <img
-          src={backImg}
-          alt="background decoration image"
-          className="backImg"
-        />
-        <img
-          src={circle}
-          alt="background decoration image"
-          className="circleB"
-        />
       </header>
     </>
   );

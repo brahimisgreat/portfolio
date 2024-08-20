@@ -5,15 +5,16 @@
     gap: 1rem;
 }
 
-.backImg{
-    position: absolute;
-    top: 12%;
-    right: 60%;
-    z-index: -1;
-}
 
-.circleB{
-    position: absolute;
-    top: 34%;
-    right: -13%;
+
+
+
+
+/* media quieries tablet */
+
+@media screen and (min-width: 768px) {
+   .header{
+    /* width: 90%; */
+    
+   }
 }
