@@ -1,10 +1,5 @@
 .app{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5rem;
-    
-
+    width: 343px;
+    border: 1px solid red;
+    margin: 0 auto;
 }
