@@ -15,8 +15,8 @@ export const Header = () => {
   };
 
   return (
-    <header className="header  flex flex-col items-center gap-6 ">
-      <h1 className="text-2xl font-bold">Brahim Coulibaly</h1>
+    <header className="header  flex flex-col items-center gap-6 mt-10 ">
+      <h1 className="text-2xl font-bold"><span className="text-emerald-400 text-3xl">B</span>rahim Coulibaly</h1>
       <div className="flex gap-4">
         <a>
           <img src={frontEnd} alt="link to frontend mentor" />
@@ -29,7 +29,7 @@ export const Header = () => {
         </a>
       </div>
 
-      <TiThMenu className={isMenuOpen ? 'hidden' : ' text-2xl absolute right-7 top-2 '}  onClick={handleMenu} />
+      <TiThMenu className={isMenuOpen ? 'hidden' : ' text-2xl absolute right-7 top-11  '}  onClick={handleMenu} />
 
 
 
