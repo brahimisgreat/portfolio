@@ -2,14 +2,22 @@ import React from "react";
 import pic from "../../assets/images/picofme.jpg";
 import { Link } from "react-router-dom";
 import "./intro.css";
+import rings from '../../assets/images/pattern-rings.svg'
+import circle from '../../assets/images/pattern-circle.svg'
 
 
 
 export const Intro = () => {
   return (
-    <main className="intro flex flex-col items-center mt-10 gap-16">
+    <>
+    <img src={circle} className="absolute"/>
+    <img src={rings} className="rings absolute  " />
+
+    <main className="intro flex flex-col items-center mt-10 gap-4">
+
+
       <section className="image-container">
-        <img src={pic} alt="profile" className="w-52 rounded-full h-72" />
+        <img src={pic} alt="profile" id="img" className=" w-52 rounded-full h-72" />
       </section>
 
       <article className="info flex flex-col items-center gap-6">
@@ -23,5 +31,6 @@ export const Intro = () => {
         <Link to='/projects' className='btn bg-emerald-600 text-white px-4 py-2 rounded-md'>Contact me</Link>
       </article>
     </main>
+    </>
   );
 };

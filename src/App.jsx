@@ -7,7 +7,7 @@ import { Skills } from './Components/Pages/Skills'
 function App() {
 
   return (
-    <div className="app flex flex-col items-center gap-16 ">
+    <div className="app flex flex-col items-center gap-2 ">
       <Header />
       <Routes>
         <Route path='/' element={<Intro />} />
