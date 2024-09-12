@@ -1,11 +1,11 @@
 .skills{
-    height: 604px;
+    height: 704px;
     border-top: 2px solid;
     border-bottom: 2px solid;
     justify-content: center;
     align-items: center;
-    border: solid;
     width: 115%;
+    margin-top: 30%;
 }
 
 .languages-container h1{

@@ -10,7 +10,7 @@ import circle from '../../assets/images/pattern-circle.svg'
 export const Intro = () => {
   return (
     <>
-    <img src={circle} className="absolute"/>
+    <img src={circle} className="circle absolute " />
     <img src={rings} className="rings absolute  " />
 
     <main className="intro flex flex-col items-center mt-10 gap-4">

@@ -2,3 +2,9 @@
     width: 343px;
     margin: 0 auto;
 }
+
+.app-rings{
+    position: absolute;
+    top: 188%;
+    left: 50%;
+}
