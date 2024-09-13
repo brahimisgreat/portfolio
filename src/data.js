@@ -11,6 +11,10 @@ import memortGameSmall from "./assets/images/thumbnail-project-5-small.webp";
 import artGallery from "./assets/images/thumbnail-project-6-large.webp";
 import artGallerySmall from "./assets/images/thumbnail-project-6-small.webp";
 import spacetourism from './assets/images/space-tourism.jpg'
+import typemaster from './assets/images/typemaster.jpg'
+import githubuser from './assets/images/GithubUser.jpg'
+import contactform from './assets/images/ContactForm.jpg'
+import ageCalc from './assets/images/AgeCalC.jpg'
 
  export const data = [
   {
@@ -21,34 +25,41 @@ import spacetourism from './assets/images/space-tourism.jpg'
     website: "https://space-tourism-multi-page-website-nine.vercel.app/"
   },
   {
-    name: "E-LEARNING LANDING PAGE",
-    skills: ["HTML", "CSS"],
-    image:  ElearningPage ,
-    imageSmall:  ElearningPageSmall ,
+    name: "TYPEMASTER PRE_LAUNCH LANDING PAGE",
+    skills: ["HTML", "CSS", 'TypeScript'],
+    image:  typemaster ,
+    gitrepo:"https://github.com/brahimisgreat/TypeMaster-pre-launch-landing-page.git",
+    website:"https://type-master-pre-launch-landing-page.vercel.app/"
+    
   },
   {
     name: "TODO WEB APP",
-    skills: ["HTML", "CSS", "javascript"],
+    skills: ["HTML", "CSS", "javaScript"],
     image:  todoApp ,
-    imageSmall:  todoAppSmall ,
+    gitrepo:"https://github.com/brahimisgreat/Todo_app.git",
+    website:"https://todo-app-gamma-jet.vercel.app/"
   },
   {
-    name: "ENTERTAINMENT WEB APP",
-    skills: ["HTML", "CSS", "javascript"],
-    image: EntertainmentApp,
-    imageSmall: EntertainmentAppSmall,
+    name: "GITHUB USER SEARCH APP",
+    skills: ["HTML", "CSS", "typeScript"],
+    image: githubuser,
+    gitrepo:"https://github.com/brahimisgreat/githubUserSearchApp.git",
+    website:"https://github-user-search-app-beta-flax.vercel.app/"
   },
   {
-    name: "MEMORY GAME",
-    skills: ["HTML", "CSS", "javascript"],
-    image:  memortGame ,
+    name: "CONTACT-FORM",
+    skills: ["HTML", "CSS", "typeScript"],
+    image:  contactform ,
     imageSmall:  memortGameSmall ,
+    website:'https://contact-form-psi-blond.vercel.app/',
+    gitrepo:"https://github.com/brahimisgreat/Contact-Form.git"
   },
   {
-    name: "ART GALLERY SHOWCASE",
-    skills: ["HTML", "CSS", "javascript"],
-    image:  artGallery ,
-    imageSmall:  artGallerySmall ,
+    name: "AGE CALCULATOR APP",
+    skills: ["HTML", "CSS", "TypeScript"],
+    image:ageCalc,
+    website:"https://age-calculator-app-ruddy.vercel.app/",
+    gitrepo:"https://github.com/brahimisgreat/AgeCalculatorApp.git"
   },
  
 ];
