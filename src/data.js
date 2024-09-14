@@ -15,6 +15,7 @@ import typemaster from './assets/images/typemaster.jpg'
 import githubuser from './assets/images/GithubUser.jpg'
 import contactform from './assets/images/ContactForm.jpg'
 import ageCalc from './assets/images/AgeCalC.jpg'
+import adviceGen from './assets/images/AdviceGen.jpg'
 
  export const data = [
   {
@@ -61,5 +62,12 @@ import ageCalc from './assets/images/AgeCalC.jpg'
     website:"https://age-calculator-app-ruddy.vercel.app/",
     gitrepo:"https://github.com/brahimisgreat/AgeCalculatorApp.git"
   },
+  {
+    name: "ADVICE-GENERATOR",
+    skills: ["HTML", "CSS", "JavaScript"],
+    image:adviceGen,
+    website:"https://advice-generator-nine-pi.vercel.app/",
+    gitrepo:"https://github.com/brahimisgreat/AdviceGenerator.git"
+  }
  
 ];
