@@ -5,30 +5,23 @@ import linkedin from "../../assets/images/icon-linkedin.svg";
 
 export default function Contact() {
   return (
-    <div className="">
+    <div className="w-full">
     <form>
       <filedset>
-        <legend>Contact</legend>
+        <legend className="text-4xl font-bold text-center ">Contact</legend>
         <p>I would love to hear about your project and how I could help.
          Please fill in the form, and I’ll get back to you as soon as possible.
          </p>
          <p>
-          <label>
-              NAME
-          </label>
-          <input />
+
+          <input placeholder="NAME" />
          </p>
          <p>
-          <label>
-              EMAIL
-          </label>
-          <input  type="email"/>
+          <input placeholder="EMAIL" type="email"/>
          </p>
          <p>
-          <label>
-            MESSAGE
-          </label>
-          <textarea />
+          
+          <textarea  placeholder="MESSAGE"/>
          </p>
 
 
