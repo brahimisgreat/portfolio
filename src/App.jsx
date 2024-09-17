@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import { Skills } from './Components/Pages/Skills'
 import rings from './assets/images/pattern-rings.svg'
 import Projects from './Components/Pages/Projects'
+import Contact from './Components/Pages/Contact'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <img className='app-rings' src={rings} />
       <Projects />
+      <Contact />
     </div>
      
   )

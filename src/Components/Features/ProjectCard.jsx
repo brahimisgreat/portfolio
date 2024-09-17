@@ -24,7 +24,7 @@ let bob= allSkills.map((ear) => {
       <img src={images} alt="image of projects" />
       <div className="mt-4">
         <h1 className="text-2xl" >{name}</h1>
-        <div className="flex gap-4 text-gray-300">
+        <div className="flex gap-4 text-gray-300 mt-3">
           {
             allSkills.map((item, index) => {
               return (
@@ -34,9 +34,9 @@ let bob= allSkills.map((ear) => {
           }
         </div>
       </div>
-      <div className="flex gap-6 mt-4">
-        <Link>VIEW PROJECT</Link>
-        <Link>VIEW CODE</Link>
+      <div className="flex gap-6 mt-4 h-9">
+        <Link className="border-b-4 border-emerald-600">VIEW PROJECT</Link>
+        <Link className="border-b-4 border-emerald-600" >  VIEW CODE</Link>
       </div>
     </div>
   );
