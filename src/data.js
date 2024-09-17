@@ -16,6 +16,7 @@ import githubuser from './assets/images/GithubUser.jpg'
 import contactform from './assets/images/ContactForm.jpg'
 import ageCalc from './assets/images/AgeCalC.jpg'
 import adviceGen from './assets/images/AdviceGen.jpg'
+import newsletter from './assets/images/Newsletter.jpg'
 
  export const data = [
   {
@@ -26,7 +27,7 @@ import adviceGen from './assets/images/AdviceGen.jpg'
     website: "https://space-tourism-multi-page-website-nine.vercel.app/"
   },
   {
-    name: "TYPEMASTER PRE_LAUNCH LANDING PAGE",
+    name: "TYPEMASTER PRE-LAUNCH LANDING PAGE",
     skills: ["HTML", "CSS", 'TypeScript'],
     image:  typemaster ,
     gitrepo:"https://github.com/brahimisgreat/TypeMaster-pre-launch-landing-page.git",
@@ -68,6 +69,12 @@ import adviceGen from './assets/images/AdviceGen.jpg'
     image:adviceGen,
     website:"https://advice-generator-nine-pi.vercel.app/",
     gitrepo:"https://github.com/brahimisgreat/AdviceGenerator.git"
+  },
+  {
+    name: "NEWLETTER SIGN UP",
+    skills: ["HTML", "CSS", "JavaScript"],
+    image:newsletter,
+    website:"https://newsletter-pied-eight.vercel.app",
+    gitrepo:"https://github.com/brahimisgreat/Newsletter.git"
   }
- 
 ];
