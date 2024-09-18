@@ -11,17 +11,15 @@ export const Intro = () => {
   return (
     <>
     <img src={circle} className="circle absolute " />
-    <img src={rings} className="rings absolute  " />
+    <img src={rings} className="rings absolute md:top-44  md:right-3/4" />
 
-    <main className="intro flex flex-col items-center mt-10 gap-4">
-
-
-      <section className="image-container">
+    <main className="intro flex flex-col items-center mt-10 gap-4 md:flex-row md:relative ">
+      <section className=" image-container md:order-2 md:absolute">
         <img src={pic} alt="profile" id="img" className=" w-52 rounded-full h-72" />
       </section>
 
-      <article className="info flex flex-col items-center gap-6">
-        <h1 className="text-3xl font-bold text-center">
+      <article className="info flex flex-col items-center gap-6 md:items-start md:relative">
+        <h1 className="text-3xl font-bold text-center md:text-7xl">
           Nice to meet you! I&apos;m <span className="name" >Brahim Coulibaly</span>
         </h1>
         <p className="text-center">

@@ -2,6 +2,11 @@
     border-bottom: 3px solid #00ff99;
 }
 
+.info{
+    border: solid 1px #00ff99;
+    width: 543px;
+}
+
 .rings{
     right: 60%;
     top: 4%;
