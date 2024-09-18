@@ -1,8 +1,45 @@
 .contact{
     background: var(--Dark-Grey, #242424);
     width: 100vw;
+    
 }
 
 input::placeholder, textarea::placeholder{
     opacity: 0.5;
+;
+}
+
+input[type='text']::placeholder{
+    position: relative;
+    top: 0.5em;
+}
+
+input{
+    padding: 10px;
+    display: flex;
+
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    height: 620px;
+    border-bottom: solid 2px;
+}
+
+.c-rings{
+    position: absolute;
+    top: -290px;
+    height: 120px;
+   min-width: 350px;
+   right: 80px;
 }
