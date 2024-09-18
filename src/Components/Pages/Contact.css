@@ -1,0 +1,8 @@
+.contact{
+    background: var(--Dark-Grey, #242424);
+    width: 100vw;
+}
+
+input::placeholder, textarea::placeholder{
+    opacity: 0.5;
+}

@@ -1,10 +1,11 @@
 .app{
     width: 343px;
     margin: 0 auto;
+    position: relative;
 }
 
 .app-rings{
     position: absolute;
-    top: 178%;
+    top: 27.1%;
     left: 50%;
 }
