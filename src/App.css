@@ -9,3 +9,10 @@
     top: 27.1%;
     left: 50%;
 }
+
+@media (min-width: 768px) {
+   .app-rings{
+         top: 33.2%;
+         left: 70%;
+   }
+}

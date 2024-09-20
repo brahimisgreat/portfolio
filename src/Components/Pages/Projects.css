@@ -1,0 +1,11 @@
+
+
+@media (min-width: 768px) {
+    .projects{
+    }
+    .bob{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+}

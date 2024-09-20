@@ -6,10 +6,37 @@
     align-items: center;
     width: 115%;
     margin-top: 30%;
+
+}
+
+.baby{
+    height: 604px;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .languages-container h1{
     font-size: 28px;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .languages-container h1{
+        font-size: 48px;
+    }
+
+    .skills{
+        height: 900px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+     .languages-container p{
+        font-size: 18px;
+    }
+
+    .baby{
+        height: 800px;
+    }
 }
 

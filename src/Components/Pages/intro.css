@@ -1,23 +1,46 @@
 .name{
-    border-bottom: 3px solid #00ff99;
+    border-bottom: 6px solid #00ff99;
 }
 
 .info{
-    border: solid 1px #00ff99;
-    width: 543px;
+    width: 343px;
 }
 
 .rings{
     right: 60%;
-    top: 4%;
+    top: 2%;
+    height: 120px;
 }
 
 .circle{
-    left: 87%;
+    left: 95%;
     top: 6%;
+}
+
+@media (min-width: 768px){
+    
+
+    .circle{
+        left: 105%;
+        z-index: 1;
+    }
 }
 
 #img{
     background: rgba(138, 138, 141, 0.15);
     backdrop-filter: blur(40px);
+}
+
+.intro{
+    width: 100vw;
+}
+
+.c-button{
+    border-bottom: #00ff99 6px solid;
+}
+
+.rings{
+    top: 6.7rem;
+    right: 77%;
+    height: 130px;
 }
