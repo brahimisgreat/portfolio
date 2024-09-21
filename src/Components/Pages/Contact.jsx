@@ -7,10 +7,10 @@ import rings from '../../assets/images/pattern-rings.svg'
 export default function Contact() {
   return (
     <div className="contact  flex flex-col items-center justify-center py-16 gap-16 ">
-      <form className="form flex flex-col items-center w-11/12 ">
+      <form className="form flex flex-col items-center w-11/12 md:w-2/3   ">
         <div className="flex flex-col gap-7">
-          <legend className="text-4xl font-bold text-center ">Contact</legend>
-          <p className="text-center mb-4">
+          <legend className="text-4xl font-bold text-center md:text-7xl ">Contact</legend>
+          <p className="text-center mb-4 md:text-xl">
             I would love to hear about your project and how I could help. Please
             fill in the form, and I’ll get back to you as soon as possible.
           </p>
