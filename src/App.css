@@ -6,13 +6,13 @@
 
 .app-rings{
     position: absolute;
-    top: 27.1%;
-    left: 50%;
+    top: 94.7rem;
+    left: 60%;
 }
 
 @media (min-width: 768px) {
    .app-rings{
          top: 33.2%;
-         left: 70%;
+         left: 78%;
    }
 }

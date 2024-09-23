@@ -42,11 +42,11 @@ export default function Contact() {
         </div>
       </form>
 
-      <footer className="footer flex flex-col gap-4 relative ">
-        <p className="text-xl font-bold">Brahim Coulibaly</p>
+      <footer className="footer flex flex-col gap-4 relative md:flex-row md:gap-8 ">
+        <p className="text-xl font-bold md:text-2xl">Brahim Coulibaly</p>
         <p className="text-gray-300">240-709-9372</p>
         <p>Brahimiscoding@gmail.com</p>
-        <div className="flex gap-6">
+        <div className="flex gap-6 md:ml-14">
         <a>
           <img src={frontEnd} alt="link to frontend mentor" />
         </a>
@@ -57,8 +57,8 @@ export default function Contact() {
           <img src={linkedin} alt="link to linkedin" />
         </a>
         </div>
-        <img src={rings} className="c-rings absolute"  />
       </footer>
+        <img src={rings} className="c-rings absolute md:right-3/4 "  />
     </div>
   );
 }
