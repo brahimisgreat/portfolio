@@ -1,11 +1,12 @@
 .skills{
-    height: 704px;
     border-top: 2px solid;
     border-bottom: 2px solid;
     justify-content: center;
-    align-items: center;
     width: 115%;
     margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 52px;
 
 }
 
@@ -26,18 +27,29 @@
     }
 
     .skills{
-        height: 900px;
         text-align: center;
         padding-top: 40px;
         border-bottom: none;
+       
     }
 
      .languages-container p{
         font-size: 18px;
+        text-align: left;
     }
 
     .baby{
-        height: 800px;
+        height: 400px;
+        margin-top: 0px;
+        align-items: start;
+        justify-content: center;
+        
+    }
+}
+
+@media(min-width: 1024px){
+    .skills{
+        padding-bottom: 0px;
     }
 }
 

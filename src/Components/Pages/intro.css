@@ -1,5 +1,6 @@
 .name{
-    border-bottom: 6px solid #00ff99;
+    width: fit-content;
+    border-bottom: #00ff99 3px solid;
 }
 
 .info{
@@ -36,11 +37,36 @@
 }
 
 .c-button{
-    border-bottom: #00ff99 6px solid;
+    border-bottom: #00ff99 2px solid;
 }
 
 .rings{
     top: 6.7rem;
     right: 77%;
     height: 130px;
+}
+
+@media(min-width: 1024px){
+    .intro{
+       max-width: 100%;
+    }
+    
+    .info{
+        max-width: 706px;
+    }
+
+    .title{
+        width: 706px;
+        display: inline-block;
+       
+    }
+
+    .circle{
+        left: 70%;
+        top: 9%;
+    }
+
+    .rings{
+        left: -35%;
+    }
 }

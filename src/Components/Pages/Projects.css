@@ -2,10 +2,18 @@
 
 @media (min-width: 768px) {
     .projects{
+    width: 775px;
+    margin-top: 4rem;
     }
     .bob{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2rem;
     }
+}
+
+@media(min-width: 1024px){
+   .projects{
+    width: 1020px;
+   }
 }

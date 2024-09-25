@@ -15,7 +15,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="header  flex flex-col items-center gap-6 mt-10 md:flex-row md:justify-between">
+    <header className="header  flex flex-col items-center gap-6 mt-10 md:flex-row md:justify-between lg:max-w-full">
       <h1 className="text-2xl font-bold md:text-3xl">Brahim Coulibaly</h1>
       <div className="flex gap-4 md:gap-6">
         <a>

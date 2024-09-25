@@ -12,7 +12,21 @@
 
 @media (min-width: 768px) {
    .app-rings{
-         top: 33.2%;
-         left: 78%;
+         top: 25.9%;
+         left: 82%;
    }
+}
+
+@media (min-width: 1024px) {
+    .app{
+        max-width: 1210px;   
+    }
+
+    .app-rings{
+        top: 23.2%;
+        left: 88%;
+    }
+    
+    
+    
 }
