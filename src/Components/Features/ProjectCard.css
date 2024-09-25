@@ -1,0 +1,10 @@
+
+
+@media (min-width: 1064px) {
+    
+    .overlay{
+        width: 100%;
+        height: 100%;
+        border: solid px #de1b1b;
+    }
+}
