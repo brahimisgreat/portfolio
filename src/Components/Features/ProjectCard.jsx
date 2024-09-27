@@ -12,9 +12,12 @@ export default function ProjectCard({
   const allSkills = skills;
 
   return (
-    <div className="pjc mb-12">
+    <div className="pjc relative mb-12">
       <div className="relative">
-        <div className="overlay " />
+        <div className="overlay hidden absolute  items-center justify-center lg:flex lg:flex-col lg:gap-2 lg:z-0">
+        <Link className="btn lg:relative lg:z-10 lg:opacity-100 border-b-4 border-emerald-600">VIEW PROJECT</Link>
+        <Link className="btn border-b-4 border-emerald-600"> VIEW CODE</Link>
+        </div>
         <img src={images} alt="image of projects" />
       </div>
 
@@ -26,8 +29,8 @@ export default function ProjectCard({
           })}
         </div>
       </div>
-      <div className="flex gap-6 mt-4 h-9">
-        <Link className="border-b-4 border-emerald-600">VIEW PROJECT</Link>
+      <div className="buttons flex gap-6 mt-4 h-9 lg:hidden  ">
+        <Link className=" border-b-4 border-emerald-600">VIEW PROJECT</Link>
         <Link className="border-b-4 border-emerald-600"> VIEW CODE</Link>
       </div>
     </div>

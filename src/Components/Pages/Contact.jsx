@@ -22,20 +22,20 @@ export default function Contact() {
 
           <div className="box6 flex flex-col gap-7">
             <p>
-              <input
+              <input required
                 className="w-full bg-transparent h-11 border-b-2"
                 placeholder="NAME"
               />
             </p>
             <p>
-              <input
+              <input required
                 className="w-full bg-transparent h-11 border-b-2"
                 placeholder="EMAIL"
                 type="email"
               />
             </p>
             <p>
-              <textarea
+              <textarea required
                 className="w-full bg-transparent h-32 border-b-2 py-2"
                 placeholder="MESSAGE"
               />
