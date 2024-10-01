@@ -3,11 +3,46 @@ import github from "../../assets/images/icon-github.svg";
 import linkedin from "../../assets/images/icon-linkedin.svg";
 import "./Contact.css";
 import rings from "../../assets/images/pattern-rings.svg";
+import { useState } from "react";
 
 export default function Contact() {
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [nameError, setNameError] = useState(false)
+  const [emailError, setEmailError] = useState(false)
+  const [messageError, setMessageError] = useState(false)
+  const [success, setSuccess] = useState(false)
+
+function submitForm(e){
+  e.preventDefault()
+  console.log(name, email, message)
+  if(name === '') {
+    setNameError(true)
+    return
+  }
+  else if(email === '') {
+    setEmailError(true)
+    return
+  }
+  else if(message === '') {
+    setMessageError(true)
+    return
+  }
+  setSuccess(true)
+  setName('')
+  setEmail('')
+  setMessage('')
+
+
+ 
+}
+
   return (
+    <>
     <div className="contact  flex flex-col items-center  py-16 gap-16 lg:gap-0  lg:py-6  ">
-      <form className="form flex flex-col items-center w-11/12 md:w-2/3   ">
+      <form onSubmit={submitForm} className="form flex flex-col items-center w-11/12 md:w-2/3   ">
         <div className="box1 flex flex-col  lg:flex-row ">
           <div className="box3 flex flex-col gap-10" >
             <legend className="text-4xl font-bold text-center md:text-7xl lg:text-left lg:text-8xl">
@@ -25,6 +60,7 @@ export default function Contact() {
               <input required
                 className="w-full bg-transparent h-11 border-b-2"
                 placeholder="NAME"
+                name="name"
               />
             </p>
             <p>
@@ -32,12 +68,14 @@ export default function Contact() {
                 className="w-full bg-transparent h-11 border-b-2"
                 placeholder="EMAIL"
                 type="email"
+                name="email"
               />
             </p>
             <p>
               <textarea required
                 className="w-full bg-transparent h-32 border-b-2 py-2"
                 placeholder="MESSAGE"
+                name="message"
               />
             </p>
             <button
@@ -67,6 +105,13 @@ export default function Contact() {
         </div>
       </footer>
       <img src={rings} className="c-rings absolute md:right-3/4  " />
+
+      <div className="modal absolute flex ">
+      <div className="mod flex flex-col gap-10 items-center items-center text-4xl" ><h1>Thank for the message! I’ll get back to you soon.</h1>
+      <button className="m-button">Dismiss Message.</button>
+      </div>
     </div>
+    </div>
+    </>
   );
 }
