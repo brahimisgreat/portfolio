@@ -15,8 +15,8 @@ export default function ProjectCard({
     <div className="pjc relative mb-12">
       <div className="relative">
         <div className="overlay hidden absolute  items-center justify-center lg:flex lg:flex-col lg:gap-2 lg:z-0">
-        <Link className="btn lg:relative lg:z-10 lg:opacity-100 border-b-4 border-emerald-600">VIEW PROJECT</Link>
-        <Link className="btn border-b-4 border-emerald-600"> VIEW CODE</Link>
+        <Link className="btn lg:relative lg:z-10 lg:opacity-100 border-b-4 border-emerald-600" to={website}>VIEW PROJECT</Link>
+        <Link className="btn border-b-4 border-emerald-600" to={gitrepo}> VIEW CODE</Link>
         </div>
         <img src={images} alt="image of projects" />
       </div>
