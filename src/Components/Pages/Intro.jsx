@@ -8,6 +8,7 @@ import circle from '../../assets/images/pattern-circle.svg'
 
 
 export const Intro = () => {
+
   return (
     <>
     <img src={circle} className="circle absolute " />
@@ -26,7 +27,8 @@ export const Intro = () => {
             Based in the US, i&apos;m a front-end developer passionate about building beautiful, responsive,
              and accesible web apps that users love
         </p>
-        <Link to='/projects' className='c-button text-white   tracking-wider h-10 text-2xl'>CONTACT ME</Link>
+        <a  href='#contact' className='c-button text-white   tracking-wider h-10 text-2xl'>CONTACT ME</a>
+        
       </article>
     </main>
     </>

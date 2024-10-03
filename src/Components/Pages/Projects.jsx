@@ -19,6 +19,8 @@ export default function Projects() {
           images={item.image}
           skills={item.skills}
           name={item.name}
+          gitrepo={item.gitrepo}
+          website={item.website}
         />
       ))}
       </div>

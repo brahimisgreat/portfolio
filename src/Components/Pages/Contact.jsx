@@ -41,7 +41,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="contact  flex flex-col items-center  py-16 gap-16 lg:gap-0  lg:py-6  ">
+      <div id="contact" className="contact  flex flex-col items-center  py-16 gap-16 lg:gap-0  lg:py-6  ">
         <form
           onSubmit={submitForm}
           className="form flex flex-col items-center w-11/12 md:w-2/3   "

@@ -12,9 +12,10 @@ function App() {
   return (
     <div className="app flex flex-col items-center gap-3  md:w-9/12 md:gap-0 ">
       <Header />
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Intro />} />
-      </Routes>
+      </Routes> */}
+      <Intro />
       <Skills />
       <img className='app-rings' src={rings} />
       <Projects />
