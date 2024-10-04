@@ -18,13 +18,13 @@ export const Header = () => {
     <header className="header  flex flex-col items-center gap-6 mt-10 md:flex-row md:justify-between lg:max-w-full">
       <h1 className="text-2xl font-bold md:text-3xl">Brahim Coulibaly</h1>
       <div className="flex gap-4 md:gap-6">
-        <a>
+        <a className="in" href="https://www.frontendmentor.io/profile/brahimisgreat" target="_blank" >
           <img src={frontEnd} alt="link to frontend mentor" />
         </a>
-        <a>
+        <a className="in" href="https://github.com/brahimisgreat" target="_blank" >
           <img src={github} alt="link to github" />
         </a>
-        <a>
+        <a className="in" href="https://www.linkedin.com/in/brahim-coulibaly/" target="_blank" >
           <img src={linkedin} alt="link to linkedin" />
         </a>
       </div>
