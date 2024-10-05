@@ -4,8 +4,10 @@ import linkedin from "../../assets/images/icon-linkedin.svg";
 import "./Contact.css";
 import rings from "../../assets/images/pattern-rings.svg";
 import { useState } from "react";
+import axios from "axios";
 
 export default function Contact() {
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -14,23 +16,39 @@ export default function Contact() {
   const [messageError, setMessageError] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  function submitForm(e) {
+
+  async function submitForm(e) {
     e.preventDefault();
-    console.log(name, email, message);
-    if (name === "") {
+    setNameError(false);
+    setEmailError(false);
+    setMessageError(false);
+    if (name.length < 3) 
+     {
       setNameError(true);
-    } else if (email === "") {
+      return;
+    }
+    if (email.length < 3) {
       setEmailError(true);
-    } else if (message === "") {
+      return;
+    }
+    if (message.length < 3) {
       setMessageError(true);
-    } else {
+      return;
+    }
+
+    try {
+      await axios.post("http://localhost:3000/message", {
+        name,
+        email,
+        message,
+      });
       setSuccess(true);
-    
-      const modal = document.querySelector(".mhide");
-      modal.classList.toggle("modal");
-      console.log("yes");
+    } catch (error) {
+      console.log(error);
     }
   }
+
+ 
 
   function dismissModal() {
   setSuccess(false);
