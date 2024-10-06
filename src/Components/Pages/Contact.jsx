@@ -18,30 +18,9 @@ export default function Contact() {
 
   async function submitForm(e) {
     e.preventDefault();
-    setNameError(false);
-    setEmailError(false);
-    setMessageError(false);
-    if (name.length < 3) 
-     {
-      setNameError(true);
-      return;
-    }
-    if (email.length < 3) {
-      setEmailError(true);
-      return;
-    }
-    if (message.length < 3) {
-      setMessageError(true);
-      return;
-    }
-
-    else{
-      setSuccess(true);
-    }
-
+    setSuccess(true);
    
   }
-
  
 
   function dismissModal() {
