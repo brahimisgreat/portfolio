@@ -4,16 +4,15 @@ import linkedin from "../../assets/images/icon-linkedin.svg";
 import "./Contact.css";
 import rings from "../../assets/images/pattern-rings.svg";
 import { useState } from "react";
-import axios from "axios";
 
 export default function Contact() {
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [nameError, setNameError] = useState(false);
-  const [emailError, setEmailError] = useState(false);
-  const [messageError, setMessageError] = useState(false);
+  const [ setNameError] = useState(false);
+  const [ setEmailError] = useState(false);
+  const [ setMessageError] = useState(false);
   const [success, setSuccess] = useState(false);
 
 
@@ -36,16 +35,7 @@ export default function Contact() {
       return;
     }
 
-    try {
-      await axios.post("http://localhost:3000/message", {
-        name,
-        email,
-        message,
-      });
-      setSuccess(true);
-    } catch (error) {
-      console.log(error);
-    }
+   
   }
 
  
@@ -138,7 +128,7 @@ export default function Contact() {
 
         <div className={success ? "modal" : "mhide"}>
           <div className="mod flex flex-col gap-10 items-center  text-4xl">
-            <h1> {name}, Thanks for the message! i'll get back to you soon</h1>
+            <h1> {name}, Thanks for the message! I&apos;ll get back to you soon</h1>
             <button onClick={dismissModal} className="m-button">Dismiss Message.</button>
           </div>
         </div>
