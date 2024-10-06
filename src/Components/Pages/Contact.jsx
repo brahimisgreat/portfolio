@@ -35,6 +35,10 @@ export default function Contact() {
       return;
     }
 
+    else{
+      setSuccess(true);
+    }
+
    
   }
 
