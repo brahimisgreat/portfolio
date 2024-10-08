@@ -10,7 +10,7 @@ import Contact from './Components/Pages/Contact'
 function App() {
 
   return (
-    <div className="app flex flex-col items-center gap-3  md:w-9/12 md:gap-0 ">
+    <div className="app flex flex-col items-center gap-10  md:w-9/12 md:gap-0 ">
       <Header />
       {/* <Routes>
         <Route path='/' element={<Intro />} />

@@ -22,6 +22,9 @@ a:hover{
     color: #00ff99;
 }
 
+.picofme{
+    border-radius: 150px;
+}
 @media (min-width: 768px){
     
 
@@ -50,9 +53,13 @@ a:hover{
     height: 130px;
 }
 
+
 @media(min-width: 1024px){
     .intro{
-       max-width: 100%;
+        max-width: 100%;
+    }
+    .picofme{
+        border-radius: 50px;
     }
     
     

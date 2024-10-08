@@ -29,7 +29,6 @@ export const Header = () => {
         </a>
       </div>
 
-      <TiThMenu className={isMenuOpen ? 'hidden' : ' text-2xl absolute right-7 top-11  md:hidden '}  onClick={handleMenu} />
 
 
 
