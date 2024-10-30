@@ -17,6 +17,7 @@ import contactform from './assets/images/ContactForm.jpg'
 import ageCalc from './assets/images/AgeCalC.jpg'
 import adviceGen from './assets/images/AdviceGen.jpg'
 import newsletter from './assets/images/Newsletter.jpg'
+import coffee from './assets/images/coffeeroasters-subsription-site.jpg'
 
  export const data = [
   {
@@ -76,5 +77,12 @@ import newsletter from './assets/images/Newsletter.jpg'
     image:newsletter,
     website:"https://newsletter-pied-eight.vercel.app",
     gitrepo:"https://github.com/brahimisgreat/Newsletter.git"
+  },
+  {
+    name: "COFFEE ROASTERS SUBSCRIPTION SITE",
+    skills: ["HTML", "CSS", "typeScript"],
+    image: coffee,
+    website:"https://coffeeroasters-subscription-site-zf7t.vercel.app/",
+    gitrepo:" https://github.com/brahimisgreat/Coffeeroasters-subscription-site.git"
   }
 ];
